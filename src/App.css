@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.button {
+  background-color: #34aea8;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color:  #256c6a;
+  box-shadow: 0 0 4px rgba(239, 239, 239, 0.545);
+}
